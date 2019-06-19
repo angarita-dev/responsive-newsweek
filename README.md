@@ -9,7 +9,6 @@ This project is part of the Main HTML/CSS curriculum at [Microverse](https://www
 #### [View in broswer]()
 
 #### Live ScreenShot of the page
-![ScreenShot 1]()
 
 
 #### Author
