@@ -163,3 +163,42 @@ article h3 a:hover{
 .more-stories {
     padding-top: 15px;
 }
+
+.more-stories article{
+    padding: 10px 0;
+}
+
+.more-stories-img {
+    margin-top: 14px;
+    width: 25%;
+    height: 80px;
+    background-image: url(https://d.newsweek.com/en/full/1505016/abu-ghraib.jpg?w=135&h=90&l=50&t=40&f=4e37a9217c52d7308d790d63cf2f73a8);
+}
+
+.more-stories-text-container {
+    width: 75%;
+    padding-left: 10px;
+    border: none !important; 
+}
+
+.more-stories-text-container h3 a{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.more-stories-text-container div{
+    border: none;
+}
+
+.top-story {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.featured-stories {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
