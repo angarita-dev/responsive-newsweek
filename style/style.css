@@ -1,0 +1,165 @@
+body {
+    background-color: #f4f5f6 !important; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    max-width: 1310px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.col4 {
+    width: 71%;
+}
+
+.stiky-4 {
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: auto;
+}
+
+.col1 {
+    padding: 0 15px;
+    position: sticky;
+    width: 41%;
+}
+
+.col2 {
+    padding: 0 15px;
+    position: sticky;
+    width: 59%;
+}
+
+.col3 {
+    width: 29%;
+}
+
+.block-title {
+    color: rgba(3,3,3,.4);
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+}
+
+.category {
+    width: 120px;
+    display: block;
+    font: bold 17px/16px "Roboto Condensed",sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.category a{
+    text-decoration: none;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.wrap .image {
+    background-image: url(https://d.newsweek.com/en/full/1505096/dems-fume-over-hope-hicks-deposition.jpg?w=397&h=265&l=50&t=40&q=90&f=86ad842aee1f7fa11f1bb98df76f6808);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    height: 440px;
+    padding-bottom: 20px;
+}
+
+.featured-stories article .wrap{
+    height: 60%;
+}
+
+article h3 a{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: black;
+    font-weight: 700;
+}
+
+article h3{
+    margin-top: 5px;
+}
+
+.underl-a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+}
+
+.underl-a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
+article h3 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
+.top-story article .wrap{
+    height: 75%;
+}
+
+.related-story {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.related-story a {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.colorch-a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.colorch-a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.more-stories div {
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.more-stories {
+    padding-top: 15px;
+}
