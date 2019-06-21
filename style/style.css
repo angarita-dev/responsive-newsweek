@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .category {
-    width: 120px;
     display: block;
     font: bold 17px/16px "Roboto Condensed",sans-serif;
     color: #f72210;
@@ -194,11 +193,494 @@ article h3 a:hover{
 .top-story {
     position: sticky;
     top: 0;
-    bottom: 0;
 }
 
 .featured-stories {
     position: sticky;
     top: 0;
-    bottom: 0;
+}
+
+.sticky-3 {
+    position: sticky;
+    top: 0;
+    padding: 0 15px 0 30px;
+}
+
+.opinion .op-container {
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+    margin-top: 10px; 
+}
+
+.op-container .red-cir{
+    background: url(https://g.newsweek.com/www/images/opinion-headshot-bg.png) center no-repeat #f72210;
+    border-radius: 50%;
+    min-width: 63px;
+    min-height: 63px;
+    max-width: 63px;
+    max-height: 63px;
+}
+
+.op-container .text-container {
+    padding-left: 10px;
+}
+
+.op-container .text-container h3 {
+    font-size: 15px;
+}
+
+.author-byline {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.last {
+    border: none !important;
+}
+
+.latest-news {
+    margin-top: 25px;
+    padding-bottom: 250px;
+}
+
+
+.latest-news .latest-new-cont {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.latest-new-cont {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.latest-new-cont .colorch-a {
+    font-size: 14px;
+    line-height: 12px !important;
+}
+
+.latest-new-cont h3{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    line-height: 12px !important;
+}
+
+.latest-new-cont .latest-new-img {
+    width: 50% ;
+    background-image: url(https://d.newsweek.com/en/full/1505432/hannah-brown-jed.jpg?w=397&h=265&l=50&t=40&f=78709497a049a0d4cbdbbae38375c002);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+}
+
+.in-mag {
+    padding-top: 30px;
+}
+
+.in-mag-top .in-ad {
+    width: 25%;
+    padding-right: 30px;  
+}
+
+.in-mag-top .main-cont {
+    width: 75%;
+}
+
+.icon-n {
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.n-title {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;    
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.in-mag .in-mag-top .in-ad .image{
+    background-image: url(https://d.newsweek.com/en/full/1502946/june-21-28-2019-cover-gen-z.jpg?w=360&h=480&l=50&t=40&q=90&f=fc346864366c3ba0424ae40058525dca);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 350px;
+}
+
+
+.image .category a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.in-ad {
+    margin-top: 36px;
+}
+
+.in-artcl {
+    height: 350px;
+}
+
+.in-mag-top .in-artcl {
+    width: 33.33333%;
+}
+
+.in-artcl .art-img {
+    background: url(https://d.newsweek.com/en/full/1502866/fe-genz-01-560447245-banner.jpg?w=466&h=311&l=50&t=40&q=90&f=028855ab7bb593db51860ed34b17634b);
+    width: 100%;
+    height: 66.6666%;
+    background-size: cover;
+}
+
+.in-artcl {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.art-img-categ {
+    margin: 10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.art-img-categ .red{
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+.art-img-categ .white{
+    padding: 0 7px;
+    background-color: white;
+    color: #f72210;
+    margin-right: 7px;
+}
+
+.in-artcl h3{
+    font-weight: 400;   
+}
+
+.in-mag .last {
+    padding-right: 0;
+}
+
+
+.in-mag .first {
+    padding-left: 0;
+}
+
+.in-mag .in-mag-bottom {
+    padding-top: 20px;
+}
+
+.editors-pick {
+    margin-top: 30px;
+}
+
+.editors-pick-img {
+    background-image: url(https://d.newsweek.com/en/full/1505022/wallet-cash-money-dollar-stock-getty.jpg?w=397&h=295&l=50&t=40&f=a3941feaad9078345b0e5c77f1ae6498);
+    height: 230px;
+}
+
+.editors-pick-container {
+    width: 25%;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.editors-pick .first {
+    padding-left: 0;
+}
+
+.editors-pick .last {
+    padding-right: 0;
+}
+
+.editors-pick-container h3 {
+    margin-top: 15px;
+
+}
+
+h3 a{
+    font-weight: 700;
+}
+
+.editors-pick-row {
+    margin-bottom: 15px;
+}
+
+.ftr-bottom {
+    background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+    width: 70px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background-size: 100% 100%;
+    color: #f72210;
+}
+
+.ftr-slides-img {
+    background-image: url(https://d.newsweek.com/en/full/1420266/p180-photogregoricivera-courtesyofricardobofilltallerdearquitectura-ricardobofill-gestalten2019.jpg?w=397&h=265&l=50&t=40&f=4ef0a69bb6e2fb0fb6e2c030967df5cd);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ftr-slides-img:hover {
+    text-decoration: none;
+}
+
+.ftr-slides-container {
+    width: 25%;
+    padding: 10px 15px 0;
+}
+
+.ftr-slides-row .first{
+    padding-left: 0 !important;
+}
+
+.ftr-slides-row .last{
+    padding-right: 0 !important;
+}
+
+.ftr-slides-row {
+    padding-top: 15px;
+}
+
+.ftr-slides-container h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.ftr-slides {
+    padding-bottom: 15px;
+}
+
+.ftr-slides .n-title {
+    margin-bottom: 0 !important;
+}
+
+.fusion-cont {
+    padding: 22px 0 0;;
+    border-top: 1px solid #d9d9d9;
+}
+
+.section-title a{
+    color: #f72210;
+    padding-top: 25px;    
+    font-size: 22px;    
+    line-height: 22px;    
+    text-transform: none;
+    font-weight: 700;
+}
+
+.fusion-left {
+    width: 66.666%;
+    padding-top: 15px;
+}
+
+.fusion-right {
+    width: 33.333%;
+    padding-top: 15px;
+}
+
+.fusion-big-new {
+    width: 50%;
+    margin: 0 15px;
+}
+
+.fusion-big-new .fusion-big-img{
+    background-image: url(https://d.newsweek.com/en/full/1505296/sweden-skurup.jpg?w=397&h=265&l=50&t=40&f=f66ef811683a38691b3b38f48076ba9f);
+    height: 264px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fusion-big-new h3{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.fusion-left .first {
+    margin-left: 0;
+}
+
+.fusion-small-img {
+    width: 33%;
+    height: 90px;
+    background-image: url(https://d.newsweek.com/en/full/1505454/freddie-mercury.jpg?w=135&h=90&l=50&t=40&f=d1b1127baa0610a85dc0dff5cec2068b);
+}
+
+.fusion-small-new {
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 33%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.fusion-small-new h3 {
+    margin: 0 7px;
+    font-size: 15px;
+}
+
+.fusion-small-new .last {
+    border-bottom: 0;
+}
+
+.fusion-right .first {
+    padding-top: 0;
+}
+
+.fusion-left {
+    padding-bottom: 30px;
+}
+
+.fusion-small-container {
+    padding-bottom: 30px;
+}
+
+.bottom {
+    background-color: white;
+    padding: 50px 30px 0 !important;
+    max-width: 1310px;
+    margin-top: 2px;
+}
+
+.subs-left {
+    width: 66.666%;
+    padding-right: 30px;
+}
+
+.subs-left .section-title a{
+    font-size: 16px;
+}
+
+.subs-right {
+    width: 33.3333%;
+}
+
+.subs-box {
+    margin-top: 10px;
+    background-color: #f4f5f6;
+    padding: 30px;
+}
+
+.subs-box .img-cont img{
+    width: 170px;
+    height: 228px;
+}
+
+.subs-box .img-cont {
+    padding-right: 80px;
+    float: left;
+}
+
+.subs-box .img-cont .img-lf{
+    position: relative;
+    float: left;
+}
+
+.subs-box .img-cont .img-ri{
+    position: relative;
+    float: left;
+    margin: 30px -80px 0;
+}
+
+.subs-box .text-cont{
+    float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.sub-btn {
+    background-color: #f72210;
+    color: white;
+    width: 120px;
+}
+
+.sub-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-btn span {
+    padding: 8px 10px;
+    font-weight: 700;
+}
+
+.subs-right .section-title a{
+    font-size: 16px;
+}
+
+.subs-box-right {
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    height: 100%;
+}
+
+.subs-box-right .right-img {
+    width: 50%;
+    background-image: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif);
+    background-size: cover;
+}
+
+.subs-right .text-cont {
+    width: 50%;
+    padding: 30px
+}
+
+.subscription {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.foot-container {
+    padding: 25px 30px 0;
+}
+
+.logo-legal a{
+    width: 210px;
+}
+
+.logo-legal a svg{
+    width: 100%;
+    fill: #f72210;
+}
+
+.logo-legal p {
+    padding-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: #555;
+}
+
+.media-links ul li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.media-links ul li a{
+    font-size: 24px;
+    color: #555;
+}
+
+.media-links ul li a:hover{
+    color: #3b5998;
+}
+
+.foot-container .top-foot {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 5px;
 }
