@@ -1,0 +1,968 @@
+body {
+    background-color: #f4f5f6 !important; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    max-width: 1310px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.col4 {
+    width: 71%;
+}
+
+.stiky-4 {
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    padding: 0 !important;
+}
+
+.col1 {
+    padding: 0 15px;
+    position: sticky;
+    width: 41%;
+}
+
+.col2 {
+    padding: 0 15px;
+    position: sticky;
+    width: 59%;
+}
+
+.col3 {
+    padding: 0 !important;
+}
+
+.block-title {
+    color: rgba(3,3,3,.4);
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+}
+
+.category {
+    display: block;
+    font: bold 17px/16px "Roboto Condensed",sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.category a{
+    text-decoration: none;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.wrap .image {
+    background-image: url(https://d.newsweek.com/en/full/1505096/dems-fume-over-hope-hicks-deposition.jpg?w=397&h=265&l=50&t=40&q=90&f=86ad842aee1f7fa11f1bb98df76f6808);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    height: 440px;
+    padding-bottom: 20px;
+}
+
+.featured-stories article .wrap{
+    height: 60%;
+}
+
+article h3 a{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    color: black;
+    font-weight: 700;
+}
+
+article h3{
+    margin-top: 5px;
+}
+
+.underl-a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+}
+
+.underl-a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
+article h3 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+
+.top-story article .wrap{
+    height: 75%;
+}
+
+.related-story {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.related-story a {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.colorch-a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.colorch-a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.more-stories div {
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.more-stories {
+    padding-top: 15px;
+}
+
+.more-stories article{
+    padding: 10px 0;
+}
+
+.more-stories-img {
+    margin-top: 14px;
+    width: 25%;
+    height: 80px;
+    background-image: url(https://d.newsweek.com/en/full/1505016/abu-ghraib.jpg?w=135&h=90&l=50&t=40&f=4e37a9217c52d7308d790d63cf2f73a8);
+}
+
+.more-stories-text-container {
+    width: 75%;
+    padding-left: 10px;
+    border: none !important; 
+}
+
+.more-stories-text-container h3 a{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.more-stories-text-container div{
+    border: none;
+}
+
+.top-story {
+    position: sticky;
+    top: 0;
+}
+
+.featured-stories {
+    position: sticky;
+    top: 0;
+}
+
+.sticky-3 {
+    position: sticky;
+    top: 0;
+    padding: 0 15px 0 30px;
+}
+
+.opinion .op-container {
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+    margin-top: 10px; 
+}
+
+.op-container .red-cir{
+    background: url(https://g.newsweek.com/www/images/opinion-headshot-bg.png) center no-repeat #f72210;
+    border-radius: 50%;
+    min-width: 63px;
+    min-height: 63px;
+    max-width: 63px;
+    max-height: 63px;
+}
+
+.op-container .text-container {
+    padding-left: 10px;
+}
+
+.op-container .text-container h3 {
+    font-size: 15px;
+}
+
+.author-byline {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.last {
+    border: none !important;
+}
+
+.latest-news {
+    margin-top: 25px;
+}
+
+
+.latest-news .latest-new-cont {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.latest-new-cont {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.latest-new-cont .colorch-a {
+    font-size: 14px;
+    line-height: 12px !important;
+}
+
+.latest-new-cont h3{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    line-height: 12px !important;
+}
+
+.latest-new-cont .latest-new-img {
+    width: 50% ;
+    background-image: url(https://d.newsweek.com/en/full/1505432/hannah-brown-jed.jpg?w=397&h=265&l=50&t=40&f=78709497a049a0d4cbdbbae38375c002);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+}
+
+.in-mag {
+    padding: 30px !important;
+}
+
+.in-mag-top .in-ad {
+    padding-right: 30px;  
+}
+
+@media (max-width: 991px){
+    .in-mag-top .in-ad {
+        padding: 0 !important;
+        max-width: 510px !important;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+.in-mag-top .main-cont {
+    width: 75%;
+}
+
+.icon-n {
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.n-title {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;    
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.in-mag .in-mag-top .in-ad .image{
+    background-image: url(https://d.newsweek.com/en/full/1502946/june-21-28-2019-cover-gen-z.jpg?w=360&h=480&l=50&t=40&q=90&f=fc346864366c3ba0424ae40058525dca);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 350px;
+}
+
+
+.image .category a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.in-ad {
+    margin-top: 36px;
+}
+
+.in-artcl {
+    height: 350px;
+}
+
+.in-mag-top .in-artcl {
+    width: 33.33333%;
+}
+
+.in-artcl .art-img {
+    background: url(https://d.newsweek.com/en/full/1502866/fe-genz-01-560447245-banner.jpg?w=466&h=311&l=50&t=40&q=90&f=028855ab7bb593db51860ed34b17634b);
+    width: 100%;
+    height: 66.6666%;
+    background-size: cover;
+}
+
+.in-artcl {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.art-img-categ {
+    margin: 10px 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.art-img-categ .red{
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+.art-img-categ .white{
+    padding: 0 7px;
+    background-color: white;
+    color: #f72210;
+    margin-right: 7px;
+}
+
+.in-artcl h3{
+    font-weight: 400;   
+}
+
+.in-mag .last {
+    padding-right: 0;
+}
+
+
+.in-mag .first {
+    padding-left: 0;
+}
+
+.in-mag .in-mag-bottom {
+    padding-top: 20px;
+}
+
+.editors-pick {
+    margin-top: 30px;
+}
+
+.editors-pick-img {
+    background-image: url(https://d.newsweek.com/en/full/1505022/wallet-cash-money-dollar-stock-getty.jpg?w=397&h=295&l=50&t=40&f=a3941feaad9078345b0e5c77f1ae6498);
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.editors-pick-container {
+    width: 25%;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.editors-pick .first {
+    padding-left: 0;
+}
+
+.editors-pick .last {
+    padding-right: 0;
+}
+
+.editors-pick-container h3 {
+    margin-top: 15px;
+
+}
+
+h3 a{
+    font-weight: 700;
+}
+
+.editors-pick-row {
+    margin-bottom: 15px;
+}
+
+.ftr-bottom {
+    background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+    width: 70px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background-size: 100% 100%;
+    color: #f72210;
+}
+
+.ftr-slides-img {
+    background-image: url(https://d.newsweek.com/en/full/1420266/p180-photogregoricivera-courtesyofricardobofilltallerdearquitectura-ricardobofill-gestalten2019.jpg?w=397&h=265&l=50&t=40&f=4ef0a69bb6e2fb0fb6e2c030967df5cd);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ftr-slides-img:hover {
+    text-decoration: none;
+}
+
+.ftr-slides-container {
+    width: 25%;
+    padding: 10px 15px 0;
+}
+
+.ftr-slides-row .first{
+    padding-left: 0 !important;
+}
+
+.ftr-slides-row .last{
+    padding-right: 0 !important;
+}
+
+.ftr-slides-row {
+    padding-top: 15px;
+}
+
+.ftr-slides-container h3 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.ftr-slides {
+    padding-bottom: 15px;
+}
+
+.ftr-slides .n-title {
+    margin-bottom: 0 !important;
+}
+
+.fusion-cont {
+    padding: 22px 0 0;;
+    border-top: 1px solid #d9d9d9;
+}
+
+.section-title a{
+    color: #f72210;
+    padding-top: 25px;    
+    font-size: 22px;    
+    line-height: 22px;    
+    text-transform: none;
+    font-weight: 700;
+}
+
+.fusion-left {
+    width: 66.666%;
+    padding-top: 15px;
+}
+
+.fusion-left .row{
+    width: 100%;
+}
+
+.fusion-right {
+    width: 33.333%;
+    padding-top: 15px;
+}
+
+.fusion-big-new {
+    width: 50%;
+    margin: 0;
+}
+
+.fusion-big-new .fusion-big-img{
+    background-image: url(https://d.newsweek.com/en/full/1505296/sweden-skurup.jpg?w=397&h=265&l=50&t=40&f=f66ef811683a38691b3b38f48076ba9f);
+    height: 264px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fusion-big-new h3{
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.fusion-left .first {
+    margin-left: 0;
+}
+
+.fusion-small-img {
+    background-size: cover;
+    height: 90px;
+    background-image: url(https://d.newsweek.com/en/full/1505454/freddie-mercury.jpg?w=135&h=90&l=50&t=40&f=d1b1127baa0610a85dc0dff5cec2068b);
+}
+
+.fusion-small-new {
+    padding: 10px 0;
+    height: 33%;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.fusion-small-new h3 {
+    font-size: 15px;
+}
+
+.fusion-small-new .last {
+    border-bottom: 0;
+}
+
+.fusion-right .first {
+    padding-top: 0;
+}
+
+.fusion-left {
+    padding-bottom: 30px;
+}
+
+.fusion-small-container {
+    padding-bottom: 30px;
+}
+
+.bottom {
+    background-color: white;
+    padding: 50px 30px 0 !important;
+    max-width: 1310px;
+    margin-top: 2px;
+}
+
+.subs-left {
+    width: 66.666%;
+    padding-right: 30px;
+}
+
+.subs-left .subs-box .row .text-cont {
+    margin: 0 auto !important;
+}
+
+.subs-left .section-title a{
+    font-size: 16px;
+}
+
+.subs-right {
+    width: 33.3333%;
+}
+
+.subs-box {
+    margin-top: 10px;
+    background-color: #f4f5f6;
+    padding: 30px;
+}
+
+.subs-box .img-cont img{
+    width: 170px;
+    height: 228px;
+}
+
+.subs-box .img-cont {
+    padding-right: 80px;
+    float: left;
+}
+
+.subs-box .img-cont .img-lf{
+    position: relative;
+    float: left;
+}
+
+.subs-box .img-cont .img-ri{
+    position: relative;
+    float: left;
+    margin: 30px -80px 0;
+}
+
+.subs-box .text-cont{
+    float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.sub-btn {
+    background-color: #f72210;
+    color: white;
+    width: 120px;
+}
+
+.sub-btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-btn span {
+    padding: 8px 10px;
+    font-weight: 700;
+}
+
+.subs-right .section-title a{
+    font-size: 16px;
+}
+
+.subs-box-right {
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    height: 100%;
+}
+
+.subs-box-right .right-img {
+    width: 50%;
+    background-image: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif);
+    background-size: cover;
+}
+
+.subs-right .text-cont {
+    width: 50%;
+    padding: 30px
+}
+
+.subscription {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.foot-container {
+    padding: 25px 0 0;
+}
+
+.logo-legal a{
+    width: 210px;
+}
+
+.logo-legal a svg{
+    width: 100%;
+    fill: #f72210;
+}
+
+.logo-legal p {
+    padding-bottom: 5px;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: #555;
+}
+
+.media-links ul{
+    margin: auto 0;
+    padding: 0 !important;
+}
+
+.media-links ul li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.media-links ul li a{
+    font-size: 24px;
+    color: #555;
+}
+
+.media-links ul li a:hover{
+    color: #3b5998;
+}
+
+.bottom-foot {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 15px;
+}
+
+.menu {
+    padding: 0 !important;
+}
+
+.foot-container .top-foot {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 5px 0 !important;
+}
+
+.foot-container .top-foot .row{
+    width: 100%;
+    margin-left: 0 !important;
+}
+
+.menu {
+    float: left;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    color: #666;
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.menu li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu .last{
+    border-right: none !important;
+}
+
+.menu li a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links-left label {
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+.footer-links-menu ul li:last-child {
+    clear: left;
+}
+
+.header-mid .brand {
+    color: #f72210;
+}
+
+.header-top {
+    z-index: 2;
+    position: relative;
+}
+
+.header-mid {
+    background-color: #f72210;
+    padding: 10px 15px;
+}
+
+.header-bot {
+    background-color: white;
+    border-bottom-color: #f4f5f6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+}
+
+ul.page-nav li:first-child{
+    border: none !important;
+}
+
+ul.page-nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid #d9d9d9;
+}
+
+ul.page-nav {
+    color: black;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.header-mid .brand svg {
+    display: block;
+    fill: white;
+}
+
+.flex-xs-6 {
+    width: 50%;
+}
+
+.header-top div .date {
+    display: none;
+    font: 16px/34px "Roboto Condensed",sans-serif;
+    color: white;
+}
+
+.header-top .lk-2{
+    color: white;
+    position: relative;
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px
+}
+
+.header-top .lk-3{
+    background-color: white;
+    color: #f72210;
+    position: relative;
+    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px
+}
+
+.header-bot {
+    display: none !important;
+}
+
+.page-nav li a{
+    color: black;
+    font-size: 17px;
+}
+
+.lk-2, .lk-3 {
+    font-size: 18px;
+}
+
+
+.header-mid .brand svg {
+    width: 130px;
+}
+
+@media (min-width: 1200px) {
+    .header-top div .date {
+        margin-left: 20px; 
+    }
+}
+
+@media (min-width: 992px){
+    .header-top {
+        background-color: #f72210;
+        height: 95px;
+        padding: 20px 10px 15px;
+    }
+
+    .header-mid {
+        background-color: #f72210;
+        transform:  translate(-50%,0);
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 50%;
+    }
+
+    .header-bot::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        display: block;
+        width: 122px;
+        background-color: #f72210;
+        border-left: 12px solid white;
+        border-top: 13px solid #f72210;
+    }
+
+    .header-bot {
+        padding-right: 160px;
+        position: relative;
+        display: block;
+    }
+
+    ul.page-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header-mid .brand svg {
+        width: 396px;
+        height: 60px;
+        margin: 10px auto 0;
+    }
+
+    .header-top div .date {
+        display: block;
+        margin-left: 10px; 
+    }
+
+    .header-top .lk-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .lk-2, .lk-3 {
+        font-size: 18px;
+    }
+
+    .header-bot {
+        display: block !important;
+    }   
+}
+
+@media (max-width: 991px){
+    .nswk-header {
+        z-index: 999;
+        position: sticky !important;
+        top: 0 !important;
+    }
+
+    .top-right {
+        position: absolute !important; 
+        top: 7px !important;
+        right: 0px !important;
+        width: 300px !important;
+        margin: auto 0;
+    }
+    .lk-2 , .lk-3 {
+        padding: 5px !important;
+        font-size: 10px !important;
+    }
+    .lk-3{
+        min-width: 75px !important;
+    }
+    .lk-3 i{
+        display: none !important;
+    }
+    .lk-2{
+        min-width: 55px !important;
+    }
+}
+
+.nav-bar-container {
+    padding: 0 !important;
+}
